@@ -64,3 +64,12 @@ UserID, Department, Role, LastLogin
 1001, Finance, , 2022-01-01
 1002, HR, HR-Admin, 2023-10-12
 1003, Sales, Sales-User, null
+```
+---
+
+## 📥 Sample Output (Fictionalised)
+```csv
+UserID, Issue
+1001, Missing Role
+1003, Missing Last Login Timestamp
+```
