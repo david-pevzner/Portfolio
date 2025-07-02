@@ -73,3 +73,23 @@ UserID, Issue
 1001, Missing Role
 1003, Missing Last Login Timestamp
 ```
+
+---
+
+## 🗺 Architecture Diagrams
+See /architecture/:
+- system-context.png: Data sources, processing engine, report outputs
+- component-diagram.png: Modules: Ingestor, Validator, Reporter
+- data-flow.puml: Sequence of actions across pipeline
+
+---
+
+## 📚 Future Extensions
+- Integrate with Power BI dashboard for real-time exceptions
+- Add email alerts via Logic Apps
+- REST API layer to expose report data for downstream systems
+
+---
+
+## 🔒 Disclaimer
+This project is fictionalised and contains no proprietary or confidential information. It is based on public best practices and architectural principles.
