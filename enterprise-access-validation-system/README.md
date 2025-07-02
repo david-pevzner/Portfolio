@@ -34,7 +34,7 @@ The previous system involved duplicated, poorly maintained scripts for each coun
 | **Source**         | Active Directory (regional per country)          |
 | **Validation Engine** | PowerShell-based class/controller architecture |
 | **Pipeline Trigger** | GitLab CI Nightly Jobs                         |
-| **Outputs**        | JSON (ingestible user list), TXT exception reports, Email alerts |
+| **Outputs**        | JSON (ingestible user list), TXT exception reports |
 | **Notifications**  | Automated email alerts to stakeholders           |
 | **Hosting**        | Shared Git repo, deployed via GitLab CI         |
 
